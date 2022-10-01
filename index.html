@@ -1,72 +1,282 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="shortcut icon" href="favicon.ico">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>clase_04_html</title>
+        <title>Proyecto_CAC_Integrador</title>
+        <link rel="stylesheet" href="./css/stylos.css">
+
+ 
     </head>
+    
     <body>
-        <!-- Este es un comentario que no ve el usuario a simple vista  
-        <h1  style="background-color:crimson;">TITULO PRINCIPAL</h1>
-        <h2>esto es un subtitulo</h2>
-        <h3>esto es un subtitulo</h3>
-        <h4>esto es un subtitulo</h4>
-        <h5>esto es un subtitulo</h5>
-        <h6>esto es un subtitulo</h6>
+        <header class="header__flex">
+            <div class="logo">
+               <img  class="img__logo"src="./assets/logo/logo_codoacodo/codoacodo.png" alt="logo codo a codo" >
+               <h2>Conf.Bs.As</h2>
+            </div>
+            <div class="navegador">
+                <div class="navmenu">
+                    <nav>
+                        <ul>
+                            <li><a class="link" href="#">La Conferencia</a></li>
+                            <li><a class="link" href="#losOradores">Los Oradores</a></li>
+                            <li><a class="link" href="#lugaryFecha">El Lugar y la Fecha</a></li>
+                            <li><a class="link"  href="#convierteEnOrador">Convierte en Orador</a></li>
+                            <li> 
+                                <div class="tickets">
+                                    <a class="link" href="./pages/comprartickets.html">Comprar Tickets</a>
+                                </div> 
 
-        <P style="background-color:chartreuse;" >  aca vamos a colocar un parrafo</P>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>   <b>  Lorem  </b>   Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>  Nostrum molestias, architecto consequuntur obcaecati omnis, nulla soluta repellat ducimus debitis in corporis, accusantium rerum dolorum similique ad autem. Nisi, accusamus neque?</p>
-        <img src="https://picsum.photos/200?random=1" alt="esto no tiene imagen">
-        <img src="https://picsum.photos/200?random=2" alt="esto no tiene imagen">
-        <img src="https://picsum.photos/200?random=3" alt="esto no tiene imagen">
-        <img src="https://picsum.photos/200?random=4" alt="esto no tiene imagen">
-        
-        <img src="https://picsum.photos/200?random=5" alt="esto no tiene imagen">
+                            </li>
+                            
+                        </ul>
+                    
+                    </nav>
 
-    -->
-        
+                </div>
+                
+            </div>
+           
+            
+        </header> 
+        <main class="imagenMain">
+            <div  class="contenedorImagenes">
+                <div imagen>
+                    <div tamaño>
+                        <section class="wrap">
+                            <div class="wrap-texto">
+                             <h1>Conferencia Bs As </h1>
+                              <br>
+                               <p>Bs.As. llega por primera vez a Argentina. Un evento para compartir con  <br>
+                                nuestra comunidad el conocimiento y experiencia de los expertos que  <br>
+                                  están creando el futuro de Internet. Ven a conocer a los miembros del <br>
+                                evento, a otros estudiantes de Codo a Codo y los oradores de primer  <br>
+                                      nivel que tenemos para ti. Te esperamos!</p>
+                            </div>
+                        <section>
+                
+                        <div class="link"  >
+                            <nav class="color">
+                                 <a href="./pages/contacto.html">Quiero ser Orador</a>
+                               <a href="./pages/comprartickets.html">ComprarTickets</a>
+                            </nav>
 
-        <div style="background-color:rgba(139, 0, 139, 0.616);" >
-            
-            
-        <img src="https://picsum.photos/200?random=6" alt="STEVE JOBS">
-        <h3>titulo card</h3>
-        <p>   <span> Lorem ipsum dolor sit,</span>     Lorem ipsum dolor sit, amet consectetur adipisicing elit.  <br> Sunt, delectus commodi.  <br> Error, culpa repellat. Consequatur iure, explicabo libero veniam,   <br>     id nobis vel modi repellendus natus quasi, blanditiis perferendis quod ab.</p>
-        <a href="">Leer Mas</a>
-        </div>
-
-        
-        <div style="background-color:rgba(139, 0, 0, 0.351);" >
-            
-            
-            <img src="https://picsum.photos/200?random=7" alt="STEVE JOBS">
-            <h3>titulo card</h3>
-            <p>  <span> Lorem ipsum dolor sit,</span>    Lorem ipsum dolor sit, amet consectetur adipisicing elit.  <br> Sunt, delectus commodi.  <br> Error, culpa repellat. Consequatur iure, explicabo libero veniam,   <br>     id nobis vel modi repellendus natus quasi, blanditiis perferendis quod ab.</p>
-            <a href="">Leer Mas</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-          
-        <div style="background-color:rgba(139, 0, 46, 0.532);" >
-            
-            
-            <img src="https://picsum.photos/200?random=8" alt="STEVE JOBS">
-            <h3>titulo card</h3>
-            <p>   <span> Lorem ipsum dolor sit,</span>   Lorem ipsum dolor sit, amet consectetur adipisicing elit.  <br> Sunt, delectus commodi.  <br> Error, culpa repellat. Consequatur iure, explicabo libero veniam,   <br>     id nobis vel modi repellendus natus quasi, blanditiis perferendis quod ab.</p>
-            <a href="">Leer Mas</a>
-            </div>  
+                </section> 
+               
+              </section>
+        </main> 
+        
+        <section class="titulos" id="losOradores" >
+            <div>
+                    <div class="tit1">
+                      <h2>CONOCE A LOS</h2>
+                    </div>
+                  
+                    <div class="tit2">
+                      <h3>Oradores</h3>
+                    </div> 
+            </div>
+                  
+        </section>
+        <section class="sectionTarjetas">
+            <div class="padreTarjetas">
+                <div  class="tarjetas_flex">
+                    <div class="tarjeta">
+                     <img  class="tarjetaImagen" src="./assets/imagenes/imagenes_int_cac/steve.jpg" alt="STEVE JOBS" width="300" >
+                        <div  class="tarjetaContenido">
+                               <h3>STEVE JOBS</h3>
+                            <div class="tarjetaParrafo">
+                                <p>  <span> </span> Steven Paul Jobs, más conocido como Steve Jobs, fue un empresario y  
+                              magnate de los negocios en el sector informático y <br>
+                               de la industria del entretenimiento estadounidense. <br>
+                             Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company.</p>
+                            
+                             <a href="https://en.wikipedia.org/wiki/Steve_Jobs">Leer Mas</a>
+                            </div> 
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     
-        
-        
+            <div class="padreTarjetas">
+                <div class="tarjetas_flex">
+                    <div class="tarjeta">
+                     <img class="tarjetaImagen" src="./assets/imagenes/imagenes_int_cac/bill.jpg" alt="BILL GATES"width="300" >
+                       <div  class="tarjetaContenido">
+                            <h3>BILL GATES</h3>
+                            <div class="tarjetaParrafo">
+                               <p>  <span>Bill Gates. </span>Para el mayista estadounidense, William Henry Gates III,  <br>
+                               mejor conocido como Bill Gates, es un empresario, informático y filántropo estadounidense,   <br>
+                               conocido por haber creado y fundado junto con Paul Allen, la empresa Microsoft. </p>
+                            
+                               <a href="https://es.wikipedia.org/wiki/Bill_Gates">Leer Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     
+            <div class="padreTarjetas">
+                <div   class="tarjetas_flex">
+                    <div class="tarjeta">
+                     <img class="tarjetaImagen" src="./assets/imagenes/imagenes_int_cac/ada.jpeg" alt="ADA" width="300">
+                        <div  class="tarjetaContenido">
+                          <h3>ADA LOVELACE</h3>
+                            <div class="tarjetaParrafo">
+                             <p>   <span> </span>Augusta Ada King, condesa de Lovelace,   
+                                conocida habitualmente como Ada Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora 
+                                 <br> mecánica de uso general de Charles Babbage, la denominada máquina analítica </p>
+                            
+                               <a href="https://es.wikipedia.org/wiki/Ada_Lovelace">Leer Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section> 
+        <section class="sectionDividida" id="lugaryFecha">
+            <img class="imagenIzq" src="./assets/imagenes/imagenes_int_cac/ba3.jpg" alt="Imagen del Obelisco">
+            <div class="contenidoDer">
+                <h3>Bs.As. Octubre</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea, provident hic cupiditate blanditiis<br>
+                 perferendis deserunt illo vel non repellendus,   <br>
+                 laudantium vero velit saepe doloremque nihil temporibus error voluptatibus? Harum!</p>
+                 <a href="">Conoce Mas</a>
+            
+            </div>
+        </section>
+        <section>
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Orador</th>
+                        <th>DIA</th>
+                        <th>HORARIO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Steve JOBS</td>
+                        <td>Lun. y Mier.</td>
+                        <td>18:30hs. a 20:30hs.</td>
+                    </tr>
+                    <tr>
+                        <td>Bill GATES</td>
+                        <td>Martes y jueves</td>
+                        <td>18:30hs. a 20:30hs.</td>
+                    </tr>
+                    <tr>
+                        <td>Ada LOVELACE</td>
+                        <td>Lun. y Mier.</td>
+                        <td>10:00hs. a 11:30hs.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3"><a href="">Comprar Tickets</a></td>
+                </tfoot>
+            </table>
+        </section>
+        <br>
+        <br>
+        <section>
+            <form action="">
+                <div>
+                    <input type="text"placeholder="Nombre:" autofocus>
+                    <input type="text"placeholder="Apellido:">
+                </div>
 
+                    <div>
+                      <label for="">Email</label>
+                      <input type="email" name="" id="">
 
+                    </div>
+                <div>
+                    <label for="">Ingrese su contraseña</label>
+                    <input type="password">required >
+                </div>
+                <br><br>
+                <div>
+                    <textarea name="" id="" cols="45" rows="10" placeholder="Sobre que quieres hablar?" ></textarea> 
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                <div>
+                    <p>Indique su provincia/estado es:</p>
+                    <select class="">
+                        <option value="">Santa Fe</option>
+                        <option value="">Cordoba</option>
+                        <option value="">Corrientes</option>
+                        <option value="">Tucuman</option>
+                        <option value="">Misiones</option>
+                        <option value="">Entre Rios</option>
+                        <option value="">Chaco</option>
+                        <option value="">Formosa</option>
+                        <option value="">Buenos Aires</option>
+                        <option value="">jujuy</option>
+                        <option value="">Mendoza</option>
+                        <option value="">La Rioja</option>
+                        <option value="">Santiago del Estero</option>
+                        <option value="">Chubut</option>
+                        <option value="">Tierra del Fuego</option>
+                        <option value="">La Pampa</option>
+                        <option value="">San Luis</option>
+                        <option value="">Rio Negro</option>
+                        <option value="">Salta</option>
+                        <option value="">Catamarca</option>
+                        <option value="">San Juan</option>
+                        <option value="">Neuquen</option>
+                        <option value="">Santa Cruz</option>
+
+                    </select>
+                </div>
+                <div>
+                    <p>Terminos y Condiciones</p>
+                    <input type="checkbox" name="Terminos" id="">
+                </div>
+                <br><br>
+                <div>
+                    <input type="submit" value="Enviar Formulario">
+                    <input type="reset"  value="Limpiar">
+                </div>
+            </form>
+        </section>
+        <aside>
+            <h2>propagandas</h2>
+        </aside>
+        <article>
+            <img src="" alt="" srcset="" loading="lazy">
+        </article>    
+            
+        <footer class="colorFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Preguntas Frecuentes</a></div>
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Contactanós</a></div>
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Prensa</a></div>
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Conferencias</a></div>
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Terminos y Condiciones</a></div>
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Privacidad</a></div>
+                    <div class="col pt-4 pb-4"><a class="text-white text-decoration-none" href="">Estudiantes</a></div>
+            
+                </div>
+            
+            </div>
+                     
+        </footer>
         
+         
+            
         
         
     </body>
