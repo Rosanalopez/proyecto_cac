@@ -8,45 +8,67 @@
         <title>Proyecto_CAC_Integrador</title>
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/stylos.css">
-
- 
     </head>
     
     <body>
+        <!--
         <header class="header__flex">
             <div class="logo">
                <img  class="img__logo"src="./assets/logo/logo_codoacodo/codoacodo.png" alt="logo codo a codo" >
                <h2>Conf.Bs.As</h2>
             </div>
-            <div class="navegador">
-                <div class="navmenu">
-                    <nav>
-                        <ul>
-                            <li><a class="link" href="#">La Conferencia</a></li>
-                            <li><a class="link" href="#losOradores">Los Oradores</a></li>
-                            <li><a class="link" href="#lugaryFecha">El Lugar y la Fecha</a></li>
-                            <li><a class="link"  href="#convierteEnOrador">Conviertete en Orador</a></li>
-                            <li> 
+                <div class="navegador">
+                    <div class="navmenu">
+                        <input  type="checkbox"  id="#check__menu"/>
+                        <label id="#label__check" for="#check__menu">
+                            <i class="fa-solid fa-bars  icon__menu"></i> 
+                        </label>
+                        <nav>
+                            <ul>
+                              <li><a class="link" href="#">La Conferencia</a></li>
+                              <li><a class="link" href="#losOradores">Los Oradores</a></li>
+                              <li><a class="link" href="#lugaryFecha">El Lugar y la Fecha</a></li>
+                              <li><a class="link"  href="#convierteEnOrador">Conviertete en Orador</a></li>
+                              <li> 
                                 <div class="tickets">
                                     <a class="link" href="./pages/comprartickets.html">Comprar Tickets</a>
                                 </div> 
-
-                            </li>
-                            
-                        </ul>
-                    
-                    </nav>
-
-                </div>
-                
+                              </li>
+                            </ul>
+                        </nav> 
             </div>
-           
-            
-        </header> 
+        </div>  
+            -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bgColorGris">
+                <div class="container-fluid">
+                  <a class="navbar-brand" text-white " href="#">
+                     <img src="./assets/logo/logo_codoacodo/codoacodo.png" alt="logo" width="150">
+                     Conf.Bs.As
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse pe-4" id="navbarSupportedContent">
+
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 justificadoFinal">
+                        <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="#losOradores">Los Oradores</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="#lugaryFecha">El Lugar y la Fecha</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="#convierteEnOrador">Conviertete en Orador</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted text-black-50 bgColorVerde" href="./pages/comprartickets.html">ComprarTickets</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </nav> 
+        </header>
+                
+         
         <main class="imagenMain">
             <div  class="contenedorImagenes">
-                <div imagen>
-                    <div tamaño>
                         <section class="wrap">
                             <div class="wrap-texto">
                              <h1>Conferencia Bs As </h1>
@@ -56,23 +78,22 @@
                                   están creando el futuro de Internet. Ven a conocer a los miembros del <br>
                                 evento, a otros estudiantes de Codo a Codo y los oradores de primer  <br>
                                       nivel que tenemos para ti. Te esperamos!</p>
-                                 <a class="deco" href="./pages/contacto.html">Quiero ser Orador</a>
+                                 <a  class="deco"  href="">Quiero ser Orador</a>
                                  <a class="decora" href="./pages/comprartickets.html">ComprarTickets</a>
+                                 
                             </div>
+                        
+                                 
                         </section>
-                    </div>
-                </div>
             </div>
         </main> 
-        
-        <section id="losOradores">
+        <section class="item" id="losOradores">
             <div class="tit1">
                 <h5>CONOCE A LOS </h5>
             </div>
             <div class="tit2">
                 <h2>ORADORES</h2>
             </div>
-                  
         </section>
         <section class="sectionTarjetas">
             <div class="padreTarjetas">
@@ -142,8 +163,8 @@
                 </div>
             </div> 
         </section> 
-        <section class="sectionDividida" id="lugaryFecha">
-            <img class="imagenIzq" src="./assets/imagenes/imagenes_int_cac/ba3.jpg" alt="Imagen del Obelisco">
+        <section   class="sectionDividida" class="item" id="lugaryFecha">
+            <img class="imagenIzq" class="split" src="./assets/imagenes/imagenes_int_cac/ba3.jpg" alt="Imagen del Obelisco">
             <div class="contenidoDer">
                 <h3>Buenos Aires--Octubre</h3>
                 <p>  "Un verdadero desafío para la comunidad de programadores, con grandes referentes de la historia. Los esperamos  <br>
@@ -152,8 +173,8 @@
             
             </div>
         </section>
-        <section class="table">
-            <table>
+        <section class="tablita">
+            <table class="tabla_desktop">
                 <thead>
                     <tr>
                         <th>Orador</th>
@@ -183,7 +204,7 @@
                 </tfoot>
             </table>
         </section>
-        <section>
+        <section >
             <div class="dis">
                 <h5>CONVIERTETE EN UN</h5>
             </div>
@@ -193,7 +214,7 @@
             <p class="parr">Anotate como orador para dar una charla ignite.</p>
         </section>
         
-        <section class="container" id="convierteEnOrador">
+        <section class="container" class="item"   id="convierteEnOrador">
             <div class="row ancho">
                 <div class="col mb-3 d-flex ">
                     <input type="text" class="form-control"id="exampleFormControlInput1" placeholder="Nombre">
@@ -203,14 +224,14 @@
             </div>
             <div class="row ancho">
                 <div class="col mb-3">
-                    <textarea name="" class="form-control" id="exampleFormControltextarea" cols="50" rows="10" placeholder="Sobre que quieres
+                    <textarea name="" class="form-control" id="exampleFormControltextarea" cols="20" rows="8" placeholder="Sobre que quieres
                      hablar?"></textarea>
                 </div>
             </div>
             <div class="row ancho">
                 <div class="row envi">
                     <div class="col mb-3 d-flex">
-                        <input type="submit" class="form-control" id="exampleFormControlInput1" value="Enviar">
+                        <input type="submit" class="form-control" id="exampleFormControlInput1" cols="20" rows="8"value="Enviar">
                         
                     </div>
 
@@ -242,7 +263,7 @@
             
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"  
          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVFOsA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+         <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
         
     </body>
 </html>
