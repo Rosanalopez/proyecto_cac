@@ -90,7 +90,5 @@ main{
 }
 @media screen and (max_width: 768px){
   
-  .container-fluid{
-    flex-direction: column;
-  }
+ 
 }
