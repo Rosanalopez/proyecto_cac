@@ -96,18 +96,21 @@ function TotalAPagar(){
  
 
    //Aplico descuentos según categoría
-
-    if (categoría. valor==0)    {
-        totalValorTickets = totalValorTickets;
+  
+     let categoriaSelect = categoría
+     
+    if (categoriaSelect. value == 0){
+         totalValorTickets = totalValorTickets;
     }
-    else if(categoría. valor==1)    {
-        totalValorTickets = totalValorTickets-(descuentoEstudiante/100 * totalValorTickets);
+    else if (categoriaSelect.value ==1){
+     
+        totalValorTickets = totalValorTickets - (totalValorTickets * descuentoEstudiante/100);
     }
-    else if(categoría. valor==2)    {
-        totalValorTickets=totalValorTickets-(descuentoTrainee/100 * totalValorTickets);
+    else if(categoriaSelect. value==2)    {
+        totalValorTickets=totalValorTickets-(totalValorTickets * descuentoTrainee/100);
     }
-    else if(categoría. valor==3)    {
-        totalValorTickets = totalValorTickets-(descuentoJunior/100 * totalValorTickets);
+    else if(categoriaSelect. value==3)    {
+        totalValorTickets = totalValorTickets-(totalValorTickets * descuentoJunior/100);
     }
      
 

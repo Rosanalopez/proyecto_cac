@@ -91,4 +91,14 @@ main{
 @media screen and (max_width: 768px){
   
  
+}@media screen and (min-width: 400px) { 
+  .TextoCelu{
+      height: 80%;
+      width: 80%;
+      position: relative;
+      text-align: left;
+      align-content: left;
+      margin: 10% 10% 10% 10%;
+      font-size: 0.8rem;
+  }
 }
